@@ -1,4 +1,5 @@
-#! bin/bash
+#!/bin/bash
+
 helm repo add harness-delegate https://app.harness.io/storage/harness-download/delegate-helm-chart/
 helm repo update harness-delegate
 
